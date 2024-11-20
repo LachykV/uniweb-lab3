@@ -1,0 +1,86 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Заголовки */
+h3 {
+  color: #2a2a2a;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Header styling */
+header {
+  background-color: rgb(15, 13, 44);
+  color: white; /* Optional: for contrast */
+  padding: 20px; /* Optional: for spacing */
+  text-align: center; /* Optional: center text */
+}
+
+/* Footer styling */
+footer {
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Розташування контенту */
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.image img {
+  width: 250px; 
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.description {
+  flex: 1; /* Текст займає весь доступний простір */
+  text-align: justify;
+}
+
+/* Таблиця */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+/* Список */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 14px;
+}
+
+/* Посилання */
+a {
+  text-decoration: none;
+  color: #057a40;
+}
+
+a:hover {
+  text-decoration: underline;
+}
