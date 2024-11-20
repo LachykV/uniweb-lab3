@@ -46,6 +46,7 @@ footer {
 .description {
   flex: 1; /* Текст займає весь доступний простір */
   text-align: justify;
+  margin: 0px 60px 0px 60px;
 }
 
 /* Таблиця */
